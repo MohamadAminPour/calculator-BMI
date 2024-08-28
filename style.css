@@ -1,0 +1,61 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(45deg, red 10%, blue 100%);
+}
+
+.box {
+    background-color: white;
+    width: 500px;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.box .ghad {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box .ghad input {
+    width: 350px;
+    margin-right: 50px;
+}
+
+.box .vazn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box .vazn input {
+    width: 350px;
+    margin-right: 50px;
+}
+
+.box .reault {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.box .reault h2 {
+    margin: 10px 0;
+}
+
+.box .reault p {
+    margin: 10px 0;
+}
